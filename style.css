@@ -1,0 +1,15 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrap{
+    display: flex;
+    gap: 15px;
+}
+.nav{
+    width: 100px;
+    border-collapse: collapse;
+    height: fit-content;
+}
+a:visited{
+    color:blue;
+}
