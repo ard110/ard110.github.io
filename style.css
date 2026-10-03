@@ -9,12 +9,16 @@ body{
     gap: 15px;
 }
 .nav{
-    width: 100px;
+    width: 120px;
+    max-width: 120px;
     border-collapse: collapse;
     height: fit-content;
 }
 a:visited{
     color:blue;
+}
+a:active{
+  color: red;
 }
 .uc{
     color:red;
@@ -30,4 +34,17 @@ a:visited{
   100% {
     color: red;
   }
+}
+.gal{
+  margin-left: 50px;
+  display: flex;
+  gap: 15px;
+}
+.gal img{
+  pointer-events: none;
+  user-select: none;
+  width: 12%;
+  border: 5px ridge rgb(113, 172, 209);
+  border-radius: 7px;
+  box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.50);
 }
